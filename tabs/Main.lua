@@ -30,7 +30,6 @@ function setup()
     -- create the scenes
     Scene("companyLogoScene", CompanyLogoScene)
     Scene("gameLogoScene", GameLogoScene)
-   
     
     Scene.Change("companyLogoScene")
 end
