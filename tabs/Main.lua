@@ -30,14 +30,20 @@ function setup()
     -- create the scenes
     Scene("companyLogoScene", CompanyLogoScene)
     Scene("gameLogoScene", GameLogoScene)
-   
-    
+    Scene("gameMenuScene", GameMenuScene)
+    Scene("settingScene", SettingScene)
+    Scene("storeButton", StoreScene)
+    Scene("creditButton", CreditScene)
+    Scene("gamecentreButton", GameCentreScene)
     Scene.Change("companyLogoScene")
+    Scene("startButton", WorldSelectionScene)
+    Scene("additionScene", AdditionScene)
+    Scene("SubtractionScene", SubtractionScene)
+    Scene("shapesScene", ShapesScene)
 end
 
 -- This function gets called once every frame
 function draw()
-    -- This sets a dark background color 
     background(0, 0, 0, 255)
 
     -- Do your drawing here
