@@ -35,11 +35,12 @@ function setup()
     Scene("storeButton", StoreScene)
     Scene("creditButton", CreditScene)
     Scene("gamecentreButton", GameCentreScene)
-    Scene.Change("companyLogoScene")
     Scene("startButton", WorldSelectionScene)
     Scene("additionScene", AdditionScene)
     Scene("SubtractionScene", SubtractionScene)
     Scene("shapesScene", ShapesScene)
+  
+    Scene.Change("companyLogoScene")
 end
 
 -- This function gets called once every frame
