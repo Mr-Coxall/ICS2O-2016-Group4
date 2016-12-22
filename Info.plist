@@ -7,7 +7,19 @@
 	<key>Buffer Order</key>
 	<array>
 		<string>Main</string>
-		<string>CompanyScene</string>
+		<string>CompanyLogoScene</string>
+		<string>GameLogoScene</string>
+		<string>GameMenuScene</string>
+		<string>SettingScene</string>
+		<string>StoreScene</string>
+		<string>CreditScene</string>
+		<string>WorldSelectionScene</string>
+		<string>AdditionScene</string>
+		<string>SubtractionScene</string>
+		<string>ShapesScene</string>
+		<string>MusicSoundScene</string>
+		<string>DisconnectFromTheGameCentreScene</string>
+		<string>AllScene</string>
 		<string>HelperClass</string>
 	</array>
 	<key>Description</key>

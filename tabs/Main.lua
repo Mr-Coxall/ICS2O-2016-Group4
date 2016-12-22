@@ -7,6 +7,11 @@
 -- This is the project for Group #4-2016
 -- This is the initialization Main code to get the game started
 
+-- this turns on Game Center simulation from the Helper Class
+-- this is so you can call Game Center code within Codea 
+-- and just set this boolean to "false" before you export to Xcode
+DEBUG_GAMECENTER = true
+
 -- Global variables to the entire project
 
 -- local variables to this scene
@@ -23,15 +28,23 @@ function setup()
     pushStyle()    
     
     -- create the scenes
-    Scene("companyScene", CompanyLogoScene)
-    -- delete this line and add in the rest of your scenes
-    
-    Scene.Change("companyScene")
+    Scene("companyLogoScene", CompanyLogoScene)
+    Scene("gameLogoScene", GameLogoScene)
+    Scene("gameMenuScene", GameMenuScene)
+    Scene("settingScene", SettingScene)
+    Scene("storeButton", StoreScene)
+    Scene("creditButton", CreditScene)
+    Scene("gamecentreButton", GameCentreScene)
+    Scene("startButton", WorldSelectionScene)
+    Scene("additionScene", AdditionScene)
+    Scene("SubtractionScene", SubtractionScene)
+    Scene("shapesScene", ShapesScene)
+  
+    Scene.Change("companyLogoScene")
 end
 
 -- This function gets called once every frame
 function draw()
-    -- This sets a dark background color 
     background(0, 0, 0, 255)
 
     -- Do your drawing here
