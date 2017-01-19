@@ -13,6 +13,8 @@
 DEBUG_GAMECENTER = true
 
 -- Global variables to the entire project
+worldChosen = nil -- either add or subtract
+
 
 -- local variables to this scene
 
@@ -35,10 +37,11 @@ function setup()
     Scene("storeButton", StoreScene)
     Scene("creditButton", CreditScene)
     Scene("gamecentreButton", GameCentreScene)
-    Scene("startButton", WorldSelectionScene)
+    Scene("worldSelectionScene", WorldSelectionScene)
     Scene("additionScene", AdditionScene)
     Scene("SubtractionScene", SubtractionScene)
     Scene("shapesScene", ShapesScene)
+    Scene("mainGameScene", MainGameScene)
   
     Scene.Change("companyLogoScene")
 end
