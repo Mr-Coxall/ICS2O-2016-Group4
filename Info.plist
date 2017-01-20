@@ -9,6 +9,15 @@
 		<string>Main</string>
 		<string>CompanyLogoScene</string>
 		<string>GameLogoScene</string>
+		<string>GameMenuScene</string>
+		<string>CreditScene</string>
+		<string>SettingScene</string>
+		<string>StoreScene</string>
+		<string>WorldSelectionScene</string>
+		<string>MainGameScene</string>
+		<string>AdditionScene</string>
+		<string>SubtractionScene</string>
+		<string>ShapesScene</string>
 		<string>HelperClass</string>
 	</array>
 	<key>Description</key>
