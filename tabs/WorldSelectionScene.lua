@@ -64,10 +64,12 @@ function WorldSelectionScene:touched(touch)
     if (additionButton.selected == true) then
         worldChosen = "add"
         Scene.Change("mainGameScene")
+        gameTime = 0
     end
     if (subtractionButton.selected == true) then
         worldChosen = "subtract"
         Scene.Change("mainGameScene")
+        gameTime = 0
     end
     --if (shapesButton.selected == true)then
         --Scene.Change("shapesScene")
