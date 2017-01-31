@@ -31,7 +31,7 @@ function GameLogoScene:draw()
     background(81, 0, 255, 255)
     
     -- Do your drawing here
-    sprite("Project:GameBackground", WIDTH/2, HEIGHT/2, WIDTH, HEIGHT)
+    sprite("Dropbox:Game Logo", WIDTH/2, HEIGHT/2, WIDTH, HEIGHT)
     
     if(startTime + 2 < ElapsedTime)then
         Scene.Change("gameMenuScene")

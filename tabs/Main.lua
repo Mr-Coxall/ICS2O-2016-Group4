@@ -42,6 +42,7 @@ function setup()
     Scene("SubtractionScene", SubtractionScene)
     Scene("shapesScene", ShapesScene)
     Scene("mainGameScene", MainGameScene)
+    Scene("GameCompletedScene", GameCompletedScene)
   
     Scene.Change("companyLogoScene")
 end
